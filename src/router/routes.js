@@ -19,6 +19,7 @@ const routes = [
         },
       },
       { path: "about", component: () => import("pages/AboutPage.vue") },
+      { path: "register", component: () => import("pages/RegisterPage.vue") },
     ],
   },
 
